@@ -1,0 +1,96 @@
+User Groups
+===========
+
+## Students
+- Organize and archive work
+- Share work with public
+- Find students with similiar interests
+- Specific Feedback on WIP from others
+- Share work and WIP with peers
+- Discover potential collaborators
+
+- Self-assess work by
+- Discover other work
+
+
+## Faculty
+- Organize past student work
+- 
+
+## Registered users
+- participates
+
+## Anonymous
+- browses work in categories
+
+
+Concepts
+========
+- What is the purpose/goal?
+- What types are there?
+- How do the types function? (what do they do?)
+
+# Groups of People (group)
+- Purpose
+	- Connecting people together for discussing/sharing work
+
+- Types
+	- People who I have shared a specific work with
+	- People who I provide and receive feedback on a WIP from
+	- Public
+
+# Collection of work (collection)
+- Purpose
+	- Group similiar works
+
+- Types
+	- Works that are shared with a specific group (privately)
+	- Works that belong to members of a group (publicly visible)
+	- Works from a single student
+	- Works in a specific category
+		major, dept, interest, year
+	- Recent, Hot, Top work
+	- Personal gathered public works
+
+# Student Work
+- What does work look like?
+
+
+- Content
+	users, groups, work
+
+- Relationships
+	collections of work
+
+Content, Relationships, Behavior
+
+
+Road Map
+========
+
+1. Construct examples for all concept types
+
+1. User groups and features
+1. Primary Features
+	- maps
+1. Site map
+	for each page
+		- Who are the audiences?
+		- what is the goal of the page?
+		- What features accomplish the goal?
+		- What needs to be wireframed?
+
+1. flow chart
+1. wireframe
+1. storyboard
+
+
+
+
+
+
+- What is the purpose/goal?
+- who uses?
+	- Why do they care?
+- What functions does the feature provide?
+

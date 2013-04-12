@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<scenario xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" id="phL8drO7Ufh">
+  <start-date>2013-03-26T12:00:00.000Z</start-date>
+  <prototype-task>
+    <task id="t4294967294">
+      <title>Task 1</title>
+      <effort>28800</effort>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t4294967293">
+      <title>Milestone 1</title>
+      <type>milestone</type>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t4294967292">
+      <title>Group 1</title>
+      <type>group</type>
+    </task>
+  </prototype-task>
+  <prototype-resource>
+    <resource id="r4294967294">
+      <name>Resource 1</name>
+      <type>Staff</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r4294967293">
+      <name>Equipment 1</name>
+      <type>Equipment</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r4294967292">
+      <name>Material 1</name>
+      <type>Material</type>
+      <units-available>0</units-available>
+      <efficiency>0</efficiency>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r4294967291">
+      <name>Group 1</name>
+      <type>Group</type>
+    </resource>
+  </prototype-resource>
+  <top-resource idref="r-1"/>
+  <resource id="r-1">
+    <type>Group</type>
+    <child-resource idref="r1"/>
+  </resource>
+  <resource id="r1">
+    <name>Resource 1</name>
+    <type>Staff</type>
+  </resource>
+  <top-task idref="t-1"/>
+  <task id="t-1">
+    <type>group</type>
+    <child-task idref="t19"/>
+    <child-task idref="t2"/>
+    <child-task idref="t3"/>
+    <child-task idref="t4"/>
+    <child-task idref="t5"/>
+  </task>
+  <task id="t1">
+    <title>Audience Identification</title>
+    <effort>28800</effort>
+    <start-constraint-date>2013-03-26T12:00:00.000Z</start-constraint-date>
+  </task>
+  <task id="t2">
+    <title>Identifying Project</title>
+    <type>group</type>
+    <start-constraint-date>2013-03-26T12:00:00.000Z</start-constraint-date>
+    <child-task idref="t1"/>
+    <child-task idref="t20"/>
+    <child-task idref="t6"/>
+    <child-task idref="t7"/>
+    <child-task idref="t8"/>
+  </task>
+  <task id="t3">
+    <title>Preparation</title>
+    <type>group</type>
+    <start-constraint-date>2013-03-28T12:00:00.000Z</start-constraint-date>
+    <child-task idref="t18"/>
+    <child-task idref="t10"/>
+    <child-task idref="t11"/>
+    <child-task idref="t12"/>
+    <child-task idref="t13"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.380392" g="0.694118" b="0.490196"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t2"/>
+  </task>
+  <task id="t4">
+    <title>Planning</title>
+    <type>group</type>
+    <start-constraint-date>2013-04-01T12:00:00.000Z</start-constraint-date>
+    <child-task idref="t17"/>
+    <child-task idref="t14"/>
+    <child-task idref="t15"/>
+    <child-task idref="t16"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.898039" g="0.529412" b="0.360784"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t3"/>
+  </task>
+  <task id="t5">
+    <title>Implementation (TBD)</title>
+    <type>group</type>
+    <start-constraint-date>2013-04-08T12:15:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.34902" g="0.34902" b="0.34902"/>
+      </value>
+    </style>
+  </task>
+  <task id="t6">
+    <title>Focus Issues</title>
+    <effort>28800</effort>
+    <start-constraint-date>2013-03-27T12:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t1"/>
+  </task>
+  <task id="t7">
+    <title>Solution Summary</title>
+    <effort>28800</effort>
+    <start-constraint-date>2013-03-27T12:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t1"/>
+  </task>
+  <task id="t8">
+    <title>Plan Overview</title>
+    <effort>28800</effort>
+    <start-constraint-date>2013-03-27T12:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t1"/>
+  </task>
+  <task id="t10">
+    <title>Solution Overview</title>
+    <effort>28800</effort>
+    <start-constraint-date>2013-03-28T12:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.380392" g="0.694118" b="0.490196"/>
+      </value>
+    </style>
+  </task>
+  <task id="t11">
+    <title>Technical Plan</title>
+    <effort>57600</effort>
+    <start-constraint-date>2013-03-28T12:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.380392" g="0.694118" b="0.490196"/>
+      </value>
+    </style>
+  </task>
+  <task id="t12">
+    <title>Design Plan</title>
+    <effort>57600</effort>
+    <start-constraint-date>2013-03-28T12:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.380392" g="0.694118" b="0.490196"/>
+      </value>
+    </style>
+  </task>
+  <task id="t13">
+    <title>Marketing?</title>
+    <effort>57600</effort>
+    <start-constraint-date>2013-03-28T12:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.380392" g="0.694118" b="0.490196"/>
+      </value>
+    </style>
+  </task>
+  <task id="t14">
+    <title>Technical Planning</title>
+    <effort>115200</effort>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.898039" g="0.529412" b="0.360784"/>
+      </value>
+    </style>
+  </task>
+  <task id="t15">
+    <title>Design Planning</title>
+    <effort>115200</effort>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.898039" g="0.529412" b="0.360784"/>
+      </value>
+    </style>
+  </task>
+  <task id="t16">
+    <title>Gantt Chart</title>
+    <effort>28800</effort>
+    <start-constraint-date>2013-04-05T12:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.898039" g="0.529412" b="0.360784"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t14"/>
+    <prerequisite-task idref="t15"/>
+  </task>
+  <task id="t17">
+    <title>Plan Kickoff Meeting -Review Preparation</title>
+    <effort>28800</effort>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.898039" g="0.529412" b="0.360784"/>
+      </value>
+    </style>
+  </task>
+  <task id="t18">
+    <title>Preperation Meeting</title>
+    <effort>28800</effort>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.380392" g="0.694118" b="0.490196"/>
+      </value>
+    </style>
+  </task>
+  <task id="t19">
+    <title>Project Kickoff Meeting</title>
+    <effort>1800</effort>
+    <start-constraint-date>2013-03-26T12:00:00.000Z</start-constraint-date>
+  </task>
+  <task id="t20">
+    <title>Meeting: Summarize Project</title>
+    <effort>28800</effort>
+    <start-constraint-date>2013-03-27T12:00:00.000Z</start-constraint-date>
+  </task>
+  <critical-path root="-1" enabled="false" resources="false">
+    <color r="1" g="0.5" b="0.5"/>
+  </critical-path>
+</scenario>
